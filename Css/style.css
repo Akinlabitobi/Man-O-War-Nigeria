@@ -1,0 +1,185 @@
+body{
+    font: 15/1.5 Arial, Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+   }
+
+/*Global means the index and other html file*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.button_1{
+    height: 38px;
+    background: #0d125c;
+    border: 0;
+    color: #ffffff;
+}
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header{
+    background: #0d125c;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: black 8px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a{
+    color: white;
+    font-weight: bold;
+}
+header a:hover{
+    color: black;
+    font-weight: bold;
+}
+#showcase{
+    min-height: 400px;
+    background: url('../img.jpg/mow4.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+
+}
+#showcase p{
+  font-size: 20px;
+  }
+  /*newsletter is what is going on here*/
+  #newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+  }
+  #newsletter h1{
+    float: left;
+  }
+  #newsletter form{
+    float: right;
+    margin-top: 15px;
+  }
+  #newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+  }
+
+  /*boxes is what is going here*/
+
+  #boxes{
+    margin-top: 20px;
+   
+  }
+
+#boxes .box{
+   float: left;
+   text-align: center;
+   width: 30%;
+   padding: 10px;
+}
+#boxes .box img{
+    width: 200px;
+}
+
+/*aside bar is what is going on*/
+
+aside#sidebar{
+   float: right;
+    width: 30%;
+    margin-top: 10px;
+   
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 80%;
+    padding: 5px;
+}
+
+/*main-col*/
+
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+
+/*services*/
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+    
+
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #13044e;
+}
+
+
+#formation{
+    margin-top: 40px;
+}
+#formation .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#formation .direct{
+    background-color: rgb(98, 27, 230);
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+}
+#formation h1{
+    background-color: rgb(30, 176, 243);
+    text-align: center;
+}
